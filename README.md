@@ -1,10 +1,14 @@
-# spotipy-display
-Raspberry Pi powered display to control spotify playback.
-Features:
+# Spotipy Display
+Raspberry Pi-powered display to view and control Spotify playback.
+
+**Features:**
 - View current playing song title and artist, liked status 
 - Play / Pause
 - Like / Unlike
 - Previous / Next song
+
+![spotipy-display](https://github.com/jedclarin/spotipy-display/assets/34991412/29261ffa-ba3b-4048-be6f-672b643eee58)
+
 
 ## Hardware
 - [Raspberry Pi 4](https://www.amazon.ca/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X/ref=sr_1_5)
@@ -68,3 +72,4 @@ Before configuring `spotipy-display` to run automatically, test it first.
 3. Enable `spotipy-display`: `sudo systemctl enable spotipy.service`
 4. Start `spotipy-display`: `sudo systemctl start spotipy.service`
 5. Monitor logs: `sudo journalctl -fu spotipy.service`
+6. Reboot Pi to ensure everything works :)
