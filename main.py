@@ -13,7 +13,7 @@ from io import BytesIO
 import threading
 
 load_dotenv()
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 
 KEY_1 = 5
 KEY_2 = 6
